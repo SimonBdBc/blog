@@ -1,0 +1,51 @@
+Blog :
+
+Article
+  Titre
+  contenu => Javascript : WYSIWYG
+  Date de parution
+  Date de mise a jour
+  Status
+  Auteur
+  Tags
+  Catégorie
+  Commentaire
+
+Auteur (users)
+  Nom
+  Prénom
+  Email
+  FacebookID
+  LinkedInID
+  GithubID
+
+Tags
+  Labels
+
+Catégorie
+  Labels
+
+Commentaire
+  Nom
+  Email
+  Contenu
+  Date de création
+  Status
+
+=======================================================================
+
+Liste des articles (trier par date de parution DESC)
+  Count du nombre de commentaires par article (articleId)
+
+Affichage d'un article (id)
+  Récupère les categories de l'article (articleId)
+  Récupère les tags de l'article (articleId)
+    (table de liaison 2 requetes)
+  Récupère les infos auteur (userId)
+  Commentaire de l'article (articleId)
+
+Affichage d'un auteur (id)
+  une liste d'article (userid) (trier par date de parution DESC)
+
+Liste des articles par tags
+Liste des articles par categories
